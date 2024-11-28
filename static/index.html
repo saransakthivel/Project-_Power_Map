@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>South India Electricity Map</title>
+    </head>
+    <body>
+        <h1>Southern India Electricity Data</h1>
+        <div id="data-container"></div>
+        <script>
+             fetch('http://127.0.0.1:8000/si')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('data-container').innerHTML = `
+                    <p>Carbon Intensity: ${data.data.carbonIntensity} gCO2/kWh</p>
+                    <p>Energy Mix: ${JSON.stringify(data.data.energyMix)}</p>
+                `;
+            });
+        </script>
+    </body>
+</html>
