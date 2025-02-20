@@ -1,0 +1,17 @@
+mongodb+srv://smartgrid:yQPJi5bLVrWLsd6s@psgsynccluster.yuuy7.mongodb.net/?retryWrites=true&w=majority&appName=PSGSyncCluster
+
+= Table.Sort(VirtualDatabase0_Database{[Name="VirtualCollection0",Kind="Table"]}[Data],{{"date_time", Order.Descending}})
+
+
+----------------------------------------------------------------------
+
+MongoDB URI - 
+
+mongodb://smartgrid:yQPJi5bLVrWLsd6s@federateddatabaseinstance0-yuuy7.a.query.mongodb.net/?ssl=true&authSource=admin&appName=FederatedDatabaseInstance0
+
+MongoDB Federated Database Name - VirtualDatabase0
+
+MongoDB Username - smartgrid
+MongoDB Password - yQPJi5bLVrWLsd6s
+
+
