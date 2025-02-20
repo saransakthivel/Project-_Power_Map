@@ -1,0 +1,114 @@
+[
+    {
+        "Year":"2006-07",
+        "Installed Capacity (MW)":10098,
+        "TANGEDCO Generation (MU)":29481,
+        "Purchases (MU)":34208,
+        "Per Capita Consumption (KWH)":960
+    },
+    {
+        "Year":"2007-08",
+        "Installed Capacity (MW)":10122,
+        "TANGEDCO Generation (MU)":29241,
+        "Purchases (MU)":37608,
+        "Per Capita Consumption (KWH)":1000
+    },
+    {
+        "Year":"2008-09",
+        "Installed Capacity (MW)":10214,
+        "TANGEDCO Generation (MU)":28983,
+        "Purchases (MU)":38093,
+        "Per Capita Consumption (KWH)":1000
+    },
+    {
+        "Year":"2009-10",
+        "Installed Capacity (MW)":10214,
+        "TANGEDCO Generation (MU)":27860,
+        "Purchases (MU)":45027,
+        "Per Capita Consumption (KWH)":1080
+    },
+    {
+        "Year":"2010-11",
+        "Installed Capacity (MW)":10237,
+        "TANGEDCO Generation (MU)":25639,
+        "Purchases (MU)":50433,
+        "Per Capita Consumption (KWH)":1040
+    },
+    {
+        "Year":"2011-12",
+        "Installed Capacity (MW)":10364,
+        "TANGEDCO Generation (MU)":27942,
+        "Purchases (MU)":48592,
+        "Per Capita Consumption (KWH)":1065
+    },
+    {
+        "Year":"2012-13",
+        "Installed Capacity (MW)":10515,
+        "TANGEDCO Generation (MU)":25301,
+        "Purchases (MU)":49571,
+        "Per Capita Consumption (KWH)":1011
+    },
+    {
+        "Year":"2013-14",
+        "Installed Capacity (MW)":11884,
+        "TANGEDCO Generation (MU)":31276,
+        "Purchases (MU)":58517,
+        "Per Capita Consumption (KWH)":1196
+    },
+    {
+        "Year":"2014-15",
+        "Installed Capacity (MW)":13231,
+        "TANGEDCO Generation (MU)":34569,
+        "Purchases (MU)":59559,
+        "Per Capita Consumption (KWH)":1228
+    },
+    {
+        "Year":"2015-16",
+        "Installed Capacity (MW)":17976,
+        "TANGEDCO Generation (MU)":34709,
+        "Purchases (MU)":64982,
+        "Per Capita Consumption (KWH)":1280
+    },
+    {
+        "Year":"2016-17",
+        "Installed Capacity (MW)":18733,
+        "TANGEDCO Generation (MU)":29223,
+        "Purchases (MU)":76505,
+        "Per Capita Consumption (KWH)":1340
+    },
+    {
+        "Year":"2017-18",
+        "Installed Capacity (MW)":18747,
+        "TANGEDCO Generation (MU)":27873,
+        "Purchases (MU)":78954,
+        "Per Capita Consumption (KWH)":1389
+    },
+    {
+        "Year":"2018-19",
+        "Installed Capacity (MW)":18300,
+        "TANGEDCO Generation (MU)":33328,
+        "Purchases (MU)":80462,
+        "Per Capita Consumption (KWH)":1467
+    },
+    {
+        "Year":"2019-20*",
+        "Installed Capacity (MW)":16035,
+        "TANGEDCO Generation (MU)":28244,
+        "Purchases (MU)":85985,
+        "Per Capita Consumption (KWH)":1515
+    },
+    {
+        "Year":"2020-21*",
+        "Installed Capacity (MW)":16219,
+        "TANGEDCO Generation (MU)":22667,
+        "Purchases (MU)":84397,
+        "Per Capita Consumption (KWH)":1464
+    },
+    {
+        "Year":"2021-22*",
+        "Installed Capacity (MW)":16652,
+        "TANGEDCO Generation (MU)":27369,
+        "Purchases (MU)":90192,
+        "Per Capita Consumption (KWH)":1593
+    }
+]
