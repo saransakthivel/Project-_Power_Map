@@ -28,6 +28,7 @@ client = AsyncIOMotorClient(MONGO_URI)
 db = client["test_db"]
 collection = db["WorldEnergy"]
 collection_tangedco = db["Tangedco"]
+collection_india = db["IndiaEnergy"]
 
 @app.get("/")
 async def get_world_data():
@@ -82,6 +83,17 @@ async def insert_tangedco_data():
     await collection_tangedco.insert_many(data_to_insert)
     
     return {"message": "Tangedco Data inserted successfully"}
+
+@app.post("/add/india")
+async def insert_india_data():
+    with open("installed_capacity_statewise.json", "r") as file:
+        india_data = json.load(file)
+        
+    data_to_insert = india_data if isinstance(india_data, list) else [india_data]
+    
+    await collection_india.insert_many(data_to_insert)
+    
+    return {"message": "India data Inserted successfully"}
 
 @app.delete("/delete")
 async def delete_world_data():
