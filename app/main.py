@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from typing import Any, Dict
 import os
 import json
+from datetime import datetime
 
 app = FastAPI()
 
@@ -12,7 +13,7 @@ load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://api.ember-energy.org"
-ZONE = "IND,BRA,USA,UAE"
+ZONE = "IND,RUS,USA,CHN,MYS,IDN,SGP,VNM,PHL,ARE"
 PERIOD = "monthly"  
 START_DATE = "2020"  
 END_DATE = "2024"
@@ -50,10 +51,17 @@ async def store_world_data():
         inserted_count = 0
         
         for record in data['data']:
+            
+            given_date = datetime.strptime(record["date"], "%Y-%m-%d")
+            month = given_date.strftime("%B") 
+            year = given_date.year  
+            
             record_data = {
                 "entity": record['entity'],
                 "entity_code": record['entity_code'],
                 "date": record['date'],
+                "month":month,
+                "year":year,
                 "series": record['series'],
                 "generation_twh": record['generation_twh'],
                 "share_of_generation_pct": record['share_of_generation_pct'],
